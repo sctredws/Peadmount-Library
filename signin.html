@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signinstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mate&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap" rel="stylesheet">
+
+    <title>Peadmount Library</title>
+</head>
+<body>
+    <div id="page">
+        
+        <!-- <img id="liblogo" src="./images/liblogo.png" alt="Peadmount Library logo"> -->
+        <div class="navigation">
+        
+                <div class="navLeft">
+                    <a href="./index.html">
+                        <img id="liblogo" src="./images/liblogo.png" alt="Peadmount Library logo">
+                    </a>
+                </div>
+                <div class="navRight">
+                    <a href="#">Location</a>
+                    <a href="#">Events</a>
+                    <a href="./aboutus.html">About Us</a>
+                    <a href="./signin.html">Sign In</a>
+                    <img src="./images/searchVector.png" alt="search image">
+                </div>
+        </div>
+
+        <div class="searchCategory">
+
+             <h5>Search: </h5>
+
+             <form action="" id="bookInfo">
+                <input type="text" name= "title" required placeholder="Title">
+                <input type="text" name= "isbn" required placeholder="ISBN">
+                <label for="format">Format: </label>
+                <select name="format" id="format" > 
+                    <option value="print">Print</option>
+                    <option value="epub">EPUB</option>
+                    <option value="pdf">PDF</option>
+                </select>
+                <label for="genre">Genre: </label>
+                <select name="genre" id="genre" > 
+                    <option value="children">Children's</option>
+                    <option value="teen">Teen/YA</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="nonfiction">Non-Fiction</option>
+                </select>
+                
+
+             </form>
+
+
+        </div>
+
+        <div id="gridContents">
+
+        <div class="sidebar">
+            <a href="./userprofile.html">Ask Us</a>
+            <a href="#">Reading Challenge</a>
+            <a href="./booklistings.html">Catalog</a>
+            <a href="#">Bookcamp</a>
+            <a href="./book.html">E-Books</a>
+            <a href="#">STEM</a>
+            <a href="#">Online Resources</a>
+            <a href="#">Volunteer</a>
+        </div>
+
+        <!-- Required for all pages -->
+
+        <div class="info">
+
+            <h1>Welcome To Peadmount Library <br>
+            Let's Get Reading!
+            </h1>
+
+            
+
+        </div>
+
+        <div class="info2">
+
+            <h3>Create an Account</h3>
+
+            <form action="" id="registration">
+                
+                <ul>
+                    <li>
+                        <label for="fullName">
+                            Full Name: <br> <input type="text" required class="details">
+                        </label>
+                        
+                    </li>
+                    <li>
+                        <label for="email">
+                            Email: <br> <input type="text" required class="details">
+                        </label>
+                        
+                    </li>
+                    <li>
+                        <label for="phone">
+                            Phone: <br> <input type="text" required class="details">
+                        </label>
+                        
+                    </li>
+                    <li>
+                        <label for="address">
+                            Address: <br> <input type="text" required class="details">
+                        </label>
+                        
+                    </li>
+                </ul>
+
+            </form>
+
+            <button type="button">Register Account</button> <p>Already Registered?</p> <a href="#">Sign in </a>
+            
+                
+            
+        </div>
+
+        <div class="info3">
+            <div id="info3Contents">
+            <img src="./images/uploadVector.png" alt="">
+            <p id="upimg"> Upload Image</p>
+            </div>
+
+        </div>
+
+        <!-- <div class="info4">
+           
+
+        </div> -->
+
+        </div>
+    
+    </div>
+</body>
+</html>
