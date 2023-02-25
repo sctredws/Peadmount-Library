@@ -192,3 +192,126 @@ button {
     font-size: 20px;
     line-height: 30px;
 }
+
+
+@media (max-width: 600px) {
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        
+    }
+    
+    .navRight {
+        display: flex;
+        gap: 1em;
+        padding: 20px;;
+    
+    }
+
+    .navRight a {
+        text-align: center;
+        font-size: calc(10px + 0.4vw);
+        
+    }
+
+
+    #gridContents {
+        width: 100%;
+        display:grid;
+        grid-template-columns: 2fr 7fr;
+        grid-template-rows: 400px 400px 200px 400px 200px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .sidebar  a {
+        font-size: calc(10px + 0.4vw);
+        
+        
+
+    }
+
+    .info {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+       
+        
+    }
+
+    
+
+    .info2 {
+        grid-column: 1/3;
+        grid-row: 2/3;  
+        margin-top: 50px; 
+
+    }
+
+    .info2 p {
+        font-size: calc(16px + 0.4vw);
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+
+
+    #liblogo {
+        max-width: 100%;
+        display: block;
+        width: 100px;
+        height: auto;
+       
+    
+     }
+
+     .bookchoice img {
+        max-width: 100%;
+        display: block;
+        width: 110px;
+        height: auto;
+     }
+
+     .checkbutton {
+        width: 70px;
+        height: 20px;
+        font-size: calc(10px + 0.4vw);
+        line-height: 15px;
+        
+    }
+    
+    button {
+        width: 100px;
+        height: 30px;
+        margin-top: 15px;
+        font-size: calc(12px + 0.4vw);
+        line-height: 15px;
+    
+    }
+
+    .bookcovers img {
+        width: 80px;
+        height: auto;
+    }
+
+    .checkout {
+        font-size: calc(12px + 0.4vw);
+        line-height: 15px;
+    
+    }
+
+
+    form {
+        width: 250px;
+        
+
+    }
+    
+
+
+    }
